@@ -6,11 +6,18 @@ html, body {
 #master {
     height: 75%;
     vertical-align: baseline;
-    padding-top: 10%;
+    padding: 10%;
 }
 
 #root {
     height: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .heading {
@@ -24,6 +31,12 @@ html, body {
     display: flex;
     margin: auto;
     width: fit-content;
+}
+
+#children-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
 }
 
 button {
